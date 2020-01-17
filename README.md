@@ -18,7 +18,7 @@ USAGE :
     1) rm -rf build ; mkdir build && cd build && conan install .. --build=missing && cmake .. -G "Unix Makefiles" && 
     cmake --build .
 
-    Locally (127.0.0.1 for client when entering inetAddress) :
+    LOCAL :
 
     - From one terminal :
 
