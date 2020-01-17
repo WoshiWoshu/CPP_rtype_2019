@@ -28,7 +28,7 @@ a) ./build/bin/server
 
 b) ./build/bin/client
   
-  > Enter an inetAddr: 127.0.0.1.
+  > Enter an inetAddr: 127.0.0.1
   
 LAN :
 
