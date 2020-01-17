@@ -46,3 +46,8 @@ b) ./build/bin/client
 NOTE:
 
 The inet IP address of a computer can be found after doing "ifconfig -a" inside a terminal.
+
+
+![Image description](/pic/ill1.png)
+
+![Image description](/pic/ill2.png)
