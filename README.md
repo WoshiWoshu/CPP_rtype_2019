@@ -1,8 +1,4 @@
 # CPP_rtype_2019
-![Image description](/pic/ill1.png)
-
-![Image description](/pic/ill2.png)
-
 3rd year project in C++ that implements another version of the famous R-type serie video game. It is a horizontal-scrolling shooter game in which the goal is to destroy as much as possible aliens ships. The further the star ship goes the fastest becomes the environment, which means parallax's backgrounds accelerate more and more.
 The software consist of a multi-threaded home made server UDP and a graphical SFML UDP client. It can be played in LAN between computers (multi-player) and up to 4 players in a single game. when a game is full the server creates another one with the help of threads.
 Also a basic game engine is included in the software and controlls all the game logics + physics. On the other hand inputs are handled on the client side which also displays the different entities didacted by the game engine.
@@ -50,3 +46,8 @@ b) ./build/bin/client
 NOTE:
 
 The inet IP address of a computer can be found after doing "ifconfig -a" inside a terminal.
+
+
+![Image description](/pic/ill1.png)
+
+![Image description](/pic/ill2.png)
