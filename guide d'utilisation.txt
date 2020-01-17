@@ -1,0 +1,30 @@
+1. prérequis.
+Assurez-vous d'avoir conan et git ainsi que visual studio installé sur votre ordinateur, quelque soit votre système d'exploitation.
+
+2. Comment compiler le jeu.
+veuillez télécharger le jeu à l'aide de cette commande:
+git clone@git.git.epitech.eu:/didier.cheng@epitech.eu/CPP_rtype_2019
+
+Sous linux:
+entrez cette commande dans le dossier où se situe le jeu
+mkdir build && cd build && conan install .. --build=missing &&
+cmake .. -G “Unix Makefiles” && cmake --build .
+
+Sous Windows(utilisation du Windows PowerShell):
+entrez cette commande dans le dossier où se situe le jeu
+mkdir build
+cd build
+conan install .. --build=missing
+cmake .. -G "{Votre version de Visual Studio} Win64"
+cmake --build . --config Release
+
+3. Lancez le jeu.
+Lancez l'exécutable crée dans le dossier build/bin et amusez-vous !
+
+4. Contact des développeurs.
+Si vous avez des questions, n'hésitez pas à contacter les développeurs:
+brice.henault@epitech.eu (compilation, serveur, menu principal)
+didier.cheng@epitech.eu(gameplay)
+gabriel.pironneau@epitech.eu (protocole UDP)
+warren.o-connor@epitech.eu (outils graphiques)
+

@@ -1,0 +1,15 @@
+General Sprite Dimension
+
+Player : 155 x 60 (0 pixel separated)
+Player Hitbox Size : 128 x 12
+Position compared to player sprite : + 27 x 28
+
+Enemy1 : 96 x 120 (0 pixel separated)
+
+pBullet : 128 x 128 (0 pixel separated)
+
+eBullet : 120 x 48 (No animation)
+
+Explosion : 128 x 128 (0 pixels separated)
+
+Background : 1920 x 1080
