@@ -7,45 +7,45 @@ The game is cross-platform for linux, macOS and windows by using Cmake as a buil
 
 PREREQUISITES :
 
-SFML and Conan must be installed.
+    SFML and Conan must be installed.
 
 KEY MAPPING :
 
-"arrow keys" to move and "space" to shoot.
+    "arrow keys" to move and "space" to shoot.
 
 USAGE :
 
-1) rm -rf build ; mkdir build && cd build && conan install .. --build=missing && cmake .. -G "Unix Makefiles" && 
-cmake --build .
+    1) rm -rf build ; mkdir build && cd build && conan install .. --build=missing && cmake .. -G "Unix Makefiles" && 
+    cmake --build .
 
-Locally (127.0.0.1 for client when entering inetAddress) :
+    Locally (127.0.0.1 for client when entering inetAddress) :
 
-- From one terminal :
+    - From one terminal :
 
-a) ./build/bin/server
+    a) ./build/bin/server
 
-- From another terminal :
+    - From another terminal :
 
-b) ./build/bin/client
-  
-  > Enter an inetAddr: 127.0.0.1
-  
-LAN :
+    b) ./build/bin/client
 
-- From one computer :
+      > Enter an inetAddr: 127.0.0.1
 
-a) ./build/bin/server
+    LAN :
 
-- From another computer :
+    - From one computer :
 
-b) ./build/bin/client
+    a) ./build/bin/server
 
-  > Enter an inetAddr: [addr of the server].
+    - From another computer :
+
+    b) ./build/bin/client
+
+      > Enter an inetAddr: [addr of the server].
   
   
 NOTE:
 
-The inet IP address of a computer can be found after doing "ifconfig -a" inside a terminal.
+    The inet IP address of a computer can be found after doing "ifconfig -a" inside a terminal.
 
 
 ![Image description](/pic/ill1.png)
