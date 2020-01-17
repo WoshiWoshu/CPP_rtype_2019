@@ -1,5 +1,0 @@
-/Users/gabriel/Epitech/CPP_rtype_2019/build/CMakeFiles/rebuild_cache.dir
-/Users/gabriel/Epitech/CPP_rtype_2019/build/CMakeFiles/edit_cache.dir
-/Users/gabriel/Epitech/CPP_rtype_2019/build/CMakeFiles/server.dir
-/Users/gabriel/Epitech/CPP_rtype_2019/build/CMakeFiles/Thunderforce.dir
-/Users/gabriel/Epitech/CPP_rtype_2019/build/CMakeFiles/client.dir
