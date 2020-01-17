@@ -48,6 +48,6 @@ NOTE:
 The inet IP address of a computer can be found after doing "ifconfig -a" inside a terminal.
 
 
-![Image description](pic/Screenshot 2020-01-17 at 19.45.31.png)
+![Image description](pic/ill1.png)
 
-![Image description](pic/Screenshot 2020-01-17 at 19.56.49.png)
+![Image description](pic/ill2.png)
